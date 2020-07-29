@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="~/css/social_block.css" />
     <link rel="stylesheet" href="~/css/Account.css" />
     <link rel="stylesheet" href="~/css/Profile.css" />
-    <link rel="stylesheet" href="~/css/Footer.css" />
     <link rel="stylesheet" href="~/css/Competition.css" />
     <link rel="stylesheet" href="~/css/Application.css" />
     <link rel="stylesheet" href="~/css/Poem_details.css" />
@@ -79,7 +78,7 @@
         </main>
     </div>
 
-    <partial name="Footer" />
+    <div id="footer-component"></div>
     <!-- Версия vue для разработки -->
     <script src="~/lib/vue/vue.js"></script>
     <environment include="Development">
@@ -100,7 +99,7 @@
                 integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
         </script>
     </environment>
-    <script src="~/dist/main.js"></script>
+    <script src="~/dist/Layout.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/svgInliner.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
